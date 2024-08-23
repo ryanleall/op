@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "styling.css" rel = "stylesheet">
+    <title>One Piece</title>
+    <link rel="icon" href= "resources/onepiecelogo.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop> 
+            <source src = "resources\gear5.mp4" type = "video/mp4"></src>
+            <!-- <source src = "D:\punith\Mini_Project\6th_Sem\OnePiece_Website\resources\my\whitebeard_video.mp4" type = "video/mp4"></src>  -->
+        </video>
+
+        <audio autoplay loop muted="false" preload="auto" id = "backgroundMusic" class = "bgm" 
+        src = "\resources\One_Piece_OST-Overtaken.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = "">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/One-Piece-Logo.svg">
+                </div>
+            </a>
+            <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class = "layer1">
+        <div class = "layer1BgSources"><a class = "layer1BgSource1" href = "https://pin.it/46lgvLt" target = "_blank"></a><br><a class = "layer1BgSource2" href = "https://www.youtube.com/watch?v=7zG87aNNf20&list=PL_mGxmgVfH1ORtai56pXbkWdlfRjcl1K2&index=21" target = "_blank"></a></div> 
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    <b>One Piece é Real<b>
+                </div>
+                <div class = "description">
+                    Gol D. Roger era conhecido como o "Rei dos Piratas", o ser mais forte e infame a ter navegado pela Grand Line. A captura e execução de Roger pelo Governo Mundial provocaram uma mudança em todo o mundo.
+                    <br> Suas últimas palavras antes de sua morte revelaram a existência do maior tesouro do mundo, o One Piece.
+                    <br> Foi essa revelação que deu início à Grande Era dos Piratas, uma época em que homens sonhavam em encontrar o One Piece, que promete uma quantidade ilimitada de riquezas e fama, e possivelmente o auge da glória e o título de Rei dos Piratas.
+                    <br> Entra Monkey D. Luffy, um garoto de 17 anos que desafia a definição padrão de um pirata.
+                    Em vez da persona popular de um pirata maligno, endurecido e sem dentes que saqueia vilarejos por diversão, a razão de Luffy para ser um pirata é de pura admiração: a ideia de uma aventura emocionante que o leva a pessoas intrigantes e, finalmente, ao tesouro prometido.
+                </div>
+                <div class = "JourneyContainer">
+                    <a class = "journey" href = "https://youtu.be/LuQQV4eqphg" target="_blank">Participe desta jornada incrível!</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "resources/piconepiece.png">
+                <div class = "layer1Caption">
+                    <!-- One Piece Crew  -->    
+                    MONKEY D. LUFFY 
+                </div>
+                <a class = "layer1Source" href = "#!">Torne-se um Nakama ao fazer parte da nossa jornada!!! </a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Por que não vir e conferir um pouco da nossa jornada? Nós já fomos...
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=fXerRxwt44Q&pp=ygUcRWFzdCBCbHVlIHwgUmVzdW1vIE9uZSBQaWVjZQ%3D%3D" target = "_blank"><img class = "fumoImage" src = "resources/eastblue.jpg"></a>
+                        <div class = "fumoSubtext">East Blue</div>
+                    </div>
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=tsOugRByMpE&pp=ygUbQWxhYmFzdGEgfCBSZXN1bW8gT25lIFBpZWNl" target = "_blank"><img class = "gameImage" src = "resources/arabasta.jpg"></a>
+                        <div class = "gameSubtext">Alabasta</div>
+                    </div>
+                    <div class = "fanartContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=HqAHnSvunLc&pp=ygUaU2t5cGllYSB8IFJlc3VtbyBPbmUgUGllY2U%3D" target = "_blank"><img class = "fanartImage" src ="resources/skypiea.jpg" ></a>
+                        <div class = "fanartSubtext">Skypiea</div>
+                        <div class = "fanartSource"></div>
+                    </div>
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=O4znorL6Fks&pp=ygUaV2F0ZXIgNyB8IFJlc3VtbyBPbmUgUGllY2U%3D" target = "_blank"><img class = "gameImage" src = "resources/water7.jpg"></a>
+                        <div class = "gameSubtext">Water 7</div>
+                    </div>
+                    <div class = "musicContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=i55YeaTguUQ&pp=ygUgVGhyaWxsZXIgQmFyayB8IFJlc3VtbyBPbmUgUGllY2U%3D" target = "_blank"><img class = "fumoImage" src = "resources/thrillerbark.jpg"></a>
+                        <div class = "musicSubtext">Thriller Bark</div>
+                    </div>
+                    <div class = "heyMisterContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=l1TLTJmM0Ik&pp=ygUnR3VlcnJhIGRlIE1hcmluZWZvcmQgfCBSZXN1bW8gT25lIFBpZWNl" target = "_blank"><img class = "heyMisterImage" src = "resources/guerrademarineford.jpg"></a>
+                        <div class = "heyMisterSubtext">Guerra de Marineford <!-- <span class = "stuff">"stuff"</span> --></div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=SidFkjGCFmA&pp=ygUoSWxoYSBkb3MgSG9tZW5zLVBlaXhlIHwgUmVzdW1vIE9uZSBQaWVjZQ%3D%3D" target = "_blank"><img class = "fumoImage" src = "resources/ilhadoshomenspeixe.jpg"></a>
+                        <div class = "fumoSubtext">Ilha dos Homens-Peixe</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=6U7XhVVWJGQ&pp=ygUnc2FnYSBBbGlhbsOnYSBQaXJhdGEgfCBSZXN1bW8gT25lIFBpZWNl" target = "_blank"><img class = "fumoImage" src = "resources/aliancapirata.jpg"></a>
+                        <div class = "fumoSubtext">Aliança Pirata</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=0Y4FoWRFE6M&pp=ygUwSWxoYSBXaG9sZSBDYWtlIGVtIDE3IE1pbnV0b3MgfCBSZXN1bW8gT25lIFBpZWNl" target = "_blank"><img class = "fumoImage" src = "resources/whole_cake.jpg"></a>
+                        <div class = "fumoSubtext">Ilha Whole Cake</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=_tQEPD__H1c&pp=ygUsYWlzIGRlIHdhbm8gZW0gMTcgTWludXRvcyB8IFJlc3VtbyBPbmUgUGllY2U%3D" target = "_blank"><img class = "fumoImage" src = "resources/wano.jpg"></a>
+                        <div class = "fumoSubtext">País de Wano</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=14BnsD-D7JE&pp=ygURT25lIFBpZWNlIGVnZ2hlYWQ%3D" target = "_blank"><img class = "fumoImage" src = "resources/egghead.jpg"></a>
+                        <div class = "fumoSubtext">Egghead</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br><br><br>
+    <div class = "layer3">
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                "E nossa jornada ainda continua!!"
+            </div>
+            <div class = "layer3QuoteFrom">
+                Nos vemos nas próximas aventuras!
+            </div>
+        </div>
+    </div>
+<div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "../Repo-website-onepiece-main/index.html" target = "">
+                Vamos explorar a Tripulação do Chapéu de Palha!
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "landingPage.js"></script>
+</html>
