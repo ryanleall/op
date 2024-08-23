@@ -1,11 +1,6 @@
 # One_Piece_Cosmos
 
 ### Este site contém tudo relacionado ao anime One Piece.😍😍❤
-[Live Website](https://punith-kk.github.io/One_Piece_Cosmos/AnimatedAnimals-master/index2.html "From Punith.K.K")
-
-# Conquistou o Primeiro Lugar com este projeto😜😉😉✌
-![Mini_Project_Certificate](https://github.com/Punith-KK/One_Piece_Cosmos/assets/118302022/ef822f99-9da0-4920-aa7f-8ced004bfd4e)
-
 
 ## Introdução
 **Este projeto, "One Piece Cosmos", mergulha no fascinante mundo do renomado mangá e série de anime "One Piece". Explora a vasta extensão deste universo fictício, abrangendo uma infinidade de episódios, personagens cativantes e conceitos intrigantes. Por meio de uma pesquisa meticulosa e análise, o projeto visa proporcionar uma compreensão abrangente dos elementos complexos que compõem o cosmos de "One Piece".
